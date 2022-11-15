@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+	margin:0;
+	padding:0;
+	font-family:roboto;
+}
+body{
+	background:#dcf6f7;
+	
+}
+.loader
+{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background:#fff;
+	z-index:5;
+}
+.loader img{
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:transparent;
+}
+header{
+	position:fixed;
+	width:100%;
+	height:50px;
+	background:white;
+	z-index:1;
+}
+header h1{
+	text-align:center;
+	margin:4px;
+	letter-spacing:2px;
+	color:#373587;
+}
+header::before{
+	content:"";
+	position:fixed;
+	top:6.5%;
+	width:100%;
+	height:25px;
+	background:white;	
+}
+header::after{
+	content:"";
+	position:absolute;
+	left:85.2%;
+	background:#0366fc;
+	width:88px;
+	height:3.5px;
+	transition:0.5s;
+}
+header ul li{
+	list-style:none;
+	display:inline-flex;
+	padding:4px 105px;
+	
+}
+header ul li a{
+	text-decoration:none;
+	color:black;
+	z-index:1;
+    text-align:left-side;
+	letter-spacing:1px;
+	font-family:roboto;
+
+}
+header ul li a:hover{
+	text-decoration:none;
+	color:#0366fc;
+	z-index:1;
+    text-align:left-side;
+	letter-spacing:1px;
+	font-family:roboto;
+
+}
+header p{
+	position:absolute;
+	top:3%;
+	left:80%;
+	cursor:pointer;
+}
+header ul li .contact{
+	text-decoration:none;
+	color:#0366fc;
+	z-index:1;
+    text-align:left-side;
+	letter-spacing:1px;
+	font-family:roboto;
+	transition:0.5s;
+
+}
+.cform{
+	position:relative;
+	top:15%;
+	left:1%;
+	width:98%;
+	height:90%;
+	background:white;
+	
+	
+}
+.cform img{
+	position:absolute;
+	top:40%;
+}
+.cform h2{
+	text-align:center;
+	letter-spacing:1px;
+}
+.cform h3{
+	position:relative;
+	top:10%;
+	left:2%;
+	margin:12px;
+}
+.cform p{
+	position:relative;
+	top:12%;
+	left:4%;
+}
+.cform  input{
+	display:flex;
+	position:relative;
+	top:-25%;
+	left:61%;
+	padding:5px 145px;
+	margin:15px;
+	text-align:center;
+	letter-spacing:1px;
+	border:2px solid #50a2e6;
+	border-radius:5px;
+	cursor:pointer;
+}
+.cform form h4{
+	position:relative;
+	top:-15%;
+	left:72.5%;
+		letter-spacing:1px;
+		margin:15px;
+		font-size:20px;
+	
+}
+.cform textarea{
+	display:flex;
+	position:relative;
+	top:-25%;
+	left:61%;
+	padding:38px 145px;
+	margin:15px;
+	text-align:center;
+	letter-spacing:1px;
+	border:2px solid #50a2e6;
+	border-radius:5px;
+}
+.cform input:focus{
+	display:flex;
+	position:relative;
+	top:-25%;
+	left:61%;
+	padding:5px 145px;
+	margin:15px;
+	text-align:center;
+	letter-spacing:1px;
+	border:2px solid #373587;
+	border-radius:5px;
+	outline:none;
+}
+.cform input:hover{
+	display:flex;
+	position:relative;
+	top:-25%;
+	left:61%;
+	padding:5px 145px;
+	margin:15px;
+	text-align:center;
+	letter-spacing:1px;
+	border:2px solid #373587;
+	border-radius:5px;
+}
+.cform textarea:focus{
+	display:flex;
+	position:relative;
+	top:-25%;
+	left:61%;
+	padding:38px 145px;
+	margin:15px;
+	text-align:center;
+	letter-spacing:1px;
+	border:2px solid #373587;
+	border-radius:5px;
+	outline:none;
+}
+.cform textarea:hover{
+	display:flex;
+	position:relative;
+	top:-25%;
+	left:61%;
+	padding:38px 145px;
+	margin:15px;
+	text-align:center;
+	letter-spacing:1px;
+	border:2px solid #373587;
+	border-radius:5px;
+}
+.map{
+	position:relative;
+	top:15%;
+	left:1%;
+	width:98%;
+	height:90%;
+	background:white;
+	z-index:1;
+}
+.map iframe{
+	width:100%;
+	height:100%;
+}
+form{
+	position:absolute;
+	top:10%;
+	 left:40%;
+}
+.cform button{
+	position:relative;
+	top:30%;
+	left:93%;
+	padding:8px 38px;
+	color:white;
+	background:#4a6269;
+	border:none;
+	border-radius:6px;
+}
